@@ -21,10 +21,6 @@ export function UrlInput() {
     router.push(`/analyze?url=${encodeURIComponent(finalUrl)}`);
   };
 
-  const handleExampleClick = (exampleUrl: string) => {
-    setUrl(exampleUrl);
-  };
-
   return (
     <form onSubmit={handleSubmit} className="w-full max-w-xl">
       <div className="relative">
@@ -45,23 +41,6 @@ export function UrlInput() {
         </button>
       </div>
 
-      <div className="flex gap-4 text-sm text-gray-400 mt-6 justify-center">
-        <span>Try:</span>
-        <button
-          type="button"
-          onClick={() => handleExampleClick("stripe.com")}
-          className="underline hover:text-yc-black transition-colors"
-        >
-          stripe.com
-        </button>
-        <button
-          type="button"
-          onClick={() => handleExampleClick("cursortool.com")}
-          className="underline hover:text-yc-black transition-colors"
-        >
-          cursortool.com
-        </button>
-      </div>
     </form>
   );
 }
