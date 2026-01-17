@@ -13,7 +13,7 @@ export default function HowItWorks() {
                 </Link>
                 <h1 className="text-4xl font-bold tracking-tight">How Diligence AI Works</h1>
                 <p className="text-xl text-gray-600">
-                    Automating the "Schlep Test" for venture capital screening.
+                    Automating the &quot;Schlep Test&quot; for venture capital screening.
                 </p>
             </header>
 
@@ -32,21 +32,21 @@ export default function HowItWorks() {
             <section className="space-y-4">
                 <h2 className="text-2xl font-bold">The Logic</h2>
                 <p className="text-gray-700 leading-relaxed">
-                    The AI mimics a skeptical YC Partner. It doesn't read marketing fluff; it looks for structural advantages.
+                    The AI mimics a skeptical YC Partner. It doesn&apos;t read marketing fluff; it looks for structural advantages.
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
                     <div className="bg-gray-50 p-6 rounded-lg border border-gray-100">
-                        <h3 className="font-bold mb-2">The "Schlep" Test</h3>
+                        <h3 className="font-bold mb-2">The &quot;Schlep&quot; Test</h3>
                         <p className="text-sm text-gray-600">
-                            We look for "hard, unglamorous work." If a startup is just a wrapper around an API, it gets a low <strong>Technical Moat</strong> score. If it handles fraud, compliance, or hardware, it scores high.
+                            We look for &quot;hard, unglamorous work.&quot; If a startup is just a wrapper around an API, it gets a low <strong>Technical Moat</strong> score. If it handles fraud, compliance, or hardware, it scores high.
                         </p>
                     </div>
 
                     <div className="bg-gray-50 p-6 rounded-lg border border-gray-100">
                         <h3 className="font-bold mb-2">Structural Analysis</h3>
                         <p className="text-sm text-gray-600">
-                            Bull cases must be based on <strong>switching costs</strong> or <strong>structural cost advantages</strong>, not just "good UX." Bear cases focus on margin compression and commoditization.
+                            Bull cases must be based on <strong>switching costs</strong> or <strong>structural cost advantages</strong>, not just &quot;good UX.&quot; Bear cases focus on margin compression and commoditization.
                         </p>
                     </div>
                 </div>
